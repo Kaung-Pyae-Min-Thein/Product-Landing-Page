@@ -1,0 +1,31 @@
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: steelblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-link {
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
+img {
+  width: 50px;
+}
+
+@media screen and (max-width: 650px){
+    header{
+        background-color: seagreen;
+    }
+    #video{
+        width: 360px;
+        height: 200px;
+        margin-left: 50px;
+    }
+}
